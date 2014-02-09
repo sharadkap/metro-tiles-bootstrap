@@ -1,0 +1,47 @@
+/*!
+ * @file
+ * Metro Style Sheet
+ */
+
+.metro .glyphicon {
+  margin-top: 20px;
+  font-size: 80px;
+}
+
+.metro.row h2 {
+  font-size: 80px;
+  line-height: 70px;
+  margin-top: 5px;
+}
+
+.metro.row > a {
+  color: #fff;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+}
+
+.metro.row > a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.metro.grid > a {
+  height: 200px;
+  text-align: center;
+}
+
+.metro.grid > a .glyphicon {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.metro.grid > a:hover .glyphicon {
+  font-size: 120px;
+  line-height: 200px;
+  margin-top: 0px;
+}
+
+.metro.grid .placeholder {
+  border: 1px solid green;
+}
