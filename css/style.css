@@ -38,8 +38,8 @@
 
 .metro.grid > a:hover .glyphicon {
   font-size: 120px;
-  line-height: 200px;
-  margin-top: 0px;
+  top: 20px;
+  margin-bottom: 50px;
 }
 
 .metro.grid .placeholder {

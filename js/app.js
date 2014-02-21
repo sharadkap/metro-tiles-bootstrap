@@ -10,8 +10,7 @@ define([
   var initialize = function() {
     $(".grid").sortable({
       tolerance: "pointer",
-      cursor: "move",
-      placeholder: "col-sm-2 col-xs-6 placeholder"
+      cursor: "move"
     });
   };
   return { 
